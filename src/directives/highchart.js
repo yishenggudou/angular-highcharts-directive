@@ -19,7 +19,10 @@ angular.module('chartsExample.directives',[])
           type: attrs.type || null,
           height: attrs.height || null,
           width: attrs.width || null
-        }
+        },
+        exporting:{enabled:false}, 
+        credits:{enabled:false},
+        colors: ['#38d5df','#f9b700','#eb6100','#e76017','#7fb334','#a7413e']
       };
       
         //Update when charts data changes
