@@ -20,6 +20,12 @@ angular.module('chartsExample.directives',[])
           height: attrs.height || null,
           width: attrs.width || null
         },
+        title: {
+            text: attrs.title || '',
+        },
+        subtitle: {
+            text: attrs.subtitle || '',
+        },
         exporting:{enabled:false}, 
         credits:{enabled:false},
         colors: ['#38d5df','#f9b700','#eb6100','#e76017','#7fb334','#a7413e']
